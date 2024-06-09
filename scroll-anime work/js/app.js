@@ -6,7 +6,7 @@ function () {
       else { entry.target.classList.remove("displayed");
       }});
 },
-    {threshold:1,});
+    {threshold:0.5,});
       document.querySelectorAll(".box").forEach((box)=>{
         observer.observe(box);
 });});
